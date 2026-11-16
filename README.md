@@ -1,14 +1,34 @@
-# 映遊 ~EI-YU~
+# 映遊 \~EI-YU\~
+
+<img src="assets/eiyu-icon.png" width="96" alt="映遊 アイコン">
 
 Windows用のローカル動画・音楽ビジュアルDJプレーヤーです。2つのデッキで素材を再生し、エフェクトや画面分割を組み合わせて映像を演出できます。
 
-![DJコントローラー](assets/controller.png)
+![DJコントローラー：ネオンのデモ素材を再生](assets/controller-neon.jpg)
+
+## 映像演出のデモ
+
+以下はアプリで実際に描画した画面です。デモ用に生成した画像を動かした動画を使用しています。
+
+**Glass：映像を映したまま、破片が飛び散る。**
+
+![Glassで割れ始めた映像](assets/glass.jpg)
+
+**多画面：主役を大きく、小窓を周囲に。**
+
+![大小のタイルで表示した映像](assets/multi-screen.jpg)
+
+**遅延：同じ動画の異なる瞬間を、画面ごとに。**
+
+![ランダム遅延で異なる場面を表示](assets/delay.jpg)
+
+![遅延表示の動く見本](assets/delay-demo.gif)
 
 ## ダウンロードと起動
 
 1. このページの **Releases** を開きます。
-2. 最新版の **Assets** から `EI-YU-1.0.1-windows-x64.zip` をダウンロードします。
-3. ZIPを展開し、`EI-YU-1.0.1-portable.exe` をダブルクリックします。
+2. 最新版の **Assets** から `EI-YU-1.0.2-windows-x64.zip` をダウンロードします。
+3. ZIPを展開し、`EI-YU-1.0.2-portable.exe` をダブルクリックします。
 4. 「＋ 動画・音楽を追加」で自分のPCにあるファイルを読み込みます。
 
 インストールやNode.jsの準備は不要です。初回起動は展開に少し時間がかかります。スクリーンショット付きの日本語PDF説明書をZIPに同梱しています。
@@ -62,3 +82,5 @@ Windows用のローカル動画・音楽ビジュアルDJプレーヤーです�
 Download the Windows x64 ZIP from **Releases → Assets**, extract it, and run the portable EXE. No Node.js setup is required. Select **Settings → Language → English** for the English interface.
 
 The download includes a Japanese illustrated PDF manual. Add your own media files; demo media is not included. Playlists and CUE points are cleared when the app closes.
+
+
